@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Akahori Farm｜Service</title>
+        <meta name="description" content="Akahori Farmは、経営者と同じ目線で悩みやビジョンを共有し、ともに学び・ともに成長するパートナーとして寄り添います。環境に合わせて柔軟に変化しながらも、ブレない'軸'を作り上げていく―そのための最適な選択を見つけるお手伝いをするのが、Akahori Farmの役割です。">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <!-- リセットCSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <!-- SlickのCSS -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- Smart Tab -->
+        <link href="https://cdn.jsdelivr.net/npm/jquery-smarttab@4/dist/css/smart_tab_all.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body class="service-page">
+        <header class="header">
+            <h1 class="header-logo">
+                <a href="index.html"><img src="images/logo/logo.png" alt="Akahori Farm" /></a>
+            </h1>
+            <!-- ハンバーガーボタン -->
+            <button type="button" class="hamburger-button">
+                <span class="hamburger-button-bar"></span>
+                <span class="hamburger-button-bar"></span>
+                <span class="hamburger-button-bar"></span>
+            </button>
+            <!-- ハンバーガーメニュー -->
+            <div class="hamburger-main header-nav-container">
+                <nav class="hamburger-menu">
+                    <ul class="hamburger-menu-list">
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="index.html">Column</a></li>
+                        <li><a href="company.html">Experts</a></li>
+                        <li><a href="index.html">News</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <!-- ヒーローセクション -->
+            <section class="service-hero">
+                <div class="service-hero-bg"></div>
+                <h1>Our Services</h1>
+                <p>経営の最適解をともに見つける</p>
+            </section>
+            <!-- サービス概要 -->
+            <section class="service-overview">
+                <div class="container">
+                    <h2 class="section-title">Akahori Farmのアプローチ</h2>
+                    <div class="service-overview-content">
+                        <div class="service-overview-text">
+                            <p class="lead-text">経営者と同じ目線で、悩みやビジョンを共有し、ともに成長するパートナーとして寄り添います。</p>
+                            <p>私たちは、単なるコンサルティングではなく、お客様の事業に深く関わり、実行力と持続可能性をともに追求します。環境に合わせて柔軟に変化しながらも、ブレない「軸」を作り上げていくための最適な選択を見つけるお手伝いをするのが、Akahori Farmの役割です。</p>
+                            
+                            <div class="service-features">
+                                <div class="feature-item">
+                                    <i class="bi bi-graph-up"></i>
+                                    <h3>データ分析に基づく戦略立案</h3>
+                                    <p>感覚や経験だけでなく、客観的なデータ分析に基づく意思決定をサポートします。</p>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="bi bi-people"></i>
+                                    <h3>伴走型の実行支援</h3>
+                                    <p>計画だけで終わらせず、実行段階においても継続的なサポートを提供します。</p>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="bi bi-arrow-repeat"></i>
+                                    <h3>循環型の改善プロセス</h3>
+                                    <p>計画→実行→評価→改善のサイクルを繰り返し、持続的な成長を実現します。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-overview-image">
+                            <img src="images/service/overview.jpg" alt="Akahori Farmのアプローチ">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- サービスカテゴリ -->
+            <section class="service-categories">
+                <div class="container">
+                    <h2 class="section-title">サービスカテゴリ</h2>
+                    <div class="service-category-tabs">
+                        <ul class="tab-nav">
+                            <li class="active" data-tab="strategy">経営戦略</li>
+                            <li data-tab="operation">業務改革</li>
+                            <li data-tab="technology">技術支援</li>
+                        </ul>
+                        <div class="tab-content">
+                            <!-- 経営戦略 -->
+                            <div id="strategy" class="tab-pane active">
+                                <div class="category-content">
+                                    <div class="category-image">
+                                        <img src="images/service/strategy.jpg" alt="経営戦略">
+                                    </div>
+                                    <div class="category-info">
+                                        <h3>経営戦略</h3>
+                                        <p>中長期的な視点で企業のビジョンと戦略を策定し、持続可能な成長を実現します。市場分析、競合分析、自社の強み分析を通じて、独自のポジショニングを確立するお手伝いをします。</p>
+                                        
+                                        <div class="service-details">
+                                            <div class="detail-item">
+                                                <h4>主なサービス内容</h4>
+                                                <ul>
+                                                    <li>中期経営計画策定支援</li>
+                                                    <li>事業ポートフォリオ分析・再構築</li>
+                                                    <li>新規事業開発支援</li>
+                                                    <li>M&A・事業提携戦略</li>
+                                                </ul>
+                                            </div>
+                                            <div class="detail-item">
+                                                <h4>期間・料金</h4>
+                                                <p>3ヶ月〜1年</p>
+                                                <p>※プロジェクト規模により異なります</p>
+                                                <p>お見積り：無料</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 業務改革 -->
+                            <div id="operation" class="tab-pane">
+                                <div class="category-content">
+                                    <div class="category-image">
+                                        <img src="images/service/operation.jpg" alt="業務改革">
+                                    </div>
+                                    <div class="category-info">
+                                        <h3>業務改革</h3>
+                                        <p>企業の業務プロセスを最適化し、効率性と生産性を向上させます。現状分析から改善策の実行、効果測定までをトータルでサポートし、組織全体の業務改革を実現します。</p>
+                                        
+                                        <div class="service-details">
+                                            <div class="detail-item">
+                                                <h4>主なサービス内容</h4>
+                                                <ul>
+                                                    <li>業務プロセス改善（BPR）</li>
+                                                    <li>組織構造改革</li>
+                                                    <li>コスト削減施策立案・実行</li>
+                                                    <li>生産性向上プログラム</li>
+                                                </ul>
+                                            </div>
+                                            <div class="detail-item">
+                                                <h4>期間・料金</h4>
+                                                <p>2ヶ月〜6ヶ月</p>
+                                                <p>※改革規模により異なります</p>
+                                                <p>お見積り：無料</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 技術支援 -->
+                            <div id="technology" class="tab-pane">
+                                <div class="category-content">
+                                    <div class="category-image">
+                                        <img src="images/service/technology.jpg" alt="技術支援">
+                                    </div>
+                                    <div class="category-info">
+                                        <h3>技術支援</h3>
+                                        <p>最新のテクノロジーを活用し、デジタルトランスフォーメーション（DX）を推進します。技術導入の計画から実装、運用までをサポートし、競争力の強化を実現します。</p>
+                                        
+                                        <div class="service-details">
+                                            <div class="detail-item">
+                                                <h4>主なサービス内容</h4>
+                                                <ul>
+                                                    <li>DX戦略策定</li>
+                                                    <li>業務システム導入支援</li>
+                                                    <li>データ分析基盤構築</li>
+                                                    <li>AI・IoT活用コンサルティング</li>
+                                                </ul>
+                                            </div>
+                                            <div class="detail-item">
+                                                <h4>期間・料金</h4>
+                                                <p>3ヶ月〜1年</p>
+                                                <p>※プロジェクト規模により異なります</p>
+                                                <p>お見積り：無料</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- サービスの流れ -->
+            <section class="service-flow">
+                <div class="container">
+                    <h2 class="section-title">サービスの流れ</h2>
+                    <p class="section-description">Akahori Farmでは、お客様の課題解決から成果創出までを5つのステップで進めていきます。</p>
+                    
+                    <div class="flow-steps">
+                        <div class="flow-step">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h3>初回相談</h3>
+                                <p>お客様の課題や目標、現状についてヒアリングします。この段階で大まかな方向性を共有します。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flow-step">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h3>現状分析</h3>
+                                <p>データやインタビューを通じて、お客様の事業環境や内部状況を詳細に分析します。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flow-step">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h3>戦略・施策立案</h3>
+                                <p>分析結果をもとに、具体的な戦略と施策を立案します。実現可能性と効果を重視します。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flow-step">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h3>実行支援</h3>
+                                <p>立案した戦略・施策の実行をサポートします。定期的な進捗管理と調整を行います。</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flow-step">
+                            <div class="step-number">05</div>
+                            <div class="step-content">
+                                <h3>効果測定・改善</h3>
+                                <p>実施した施策の効果を測定し、必要に応じて改善を行います。継続的な成長サイクルを確立します。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- お問い合わせセクション -->
+            <section class="service-contact">
+                <div class="service-contact-bg"></div>
+                <div class="service-contact-content">
+                    <h2>ご相談・お問い合わせ</h2>
+                    <p>サービスについてのご質問や、具体的なご相談など、お気軽にお問い合わせください。</p>
+                    <div class="contact-button-wrapper">
+                        <a href="contact.html" class="button contact-button">Contact Form<i class="bi bi-arrow-right button-icon"></i></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/logo/logo.png" alt="Akahori Farm"></a>
+                </div>
+                <nav class="footer-nav">
+                    <ul class="footer-menu">
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="index.html">Column</a></li>
+                        <li><a href="company.html">Experts</a></li>
+                        <li><a href="index.html">News</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- コピーライト -->
+            <p class="footer-copy">© 2025 Akahori Farm. All Rights Reserved.</p>
+        </footer>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Smart Tab -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery-smarttab@4/dist/js/jquery.smartTab.min.js"></script>
+        <!-- waypoints -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- SlickのJS -->
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
